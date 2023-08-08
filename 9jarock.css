@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body {
+    background-color: var(--background);
+}
+body.dark {
+    background: var(--text-color);
+
+}
+:root {
+    --background: #151515;
+    --background-900: #ffff;
+    --text-color: #ffff;
+}
+.darker{
+    background-color: var(--background-900);
+    --text-color:#000;
+}
+p {
+    color: var(--text-color);
+}
+h2{
+    color: var(--text-color);
+}
+.join img {
+    width: 100%;
+    height: 15vh;
+    cursor: pointer;
+}
+.black-back {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+    padding: 1rem;
+}
+
+.black-back .fa-bars  {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+}
+.black-back .fa-regular, .fa-sun, .fa-magnifying-glass {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.fa-bars:hover {
+    color: blue;
+    transition: all .3s linear;
+}
+.ja {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.ja h1 {
+    color: blue;
+    cursor: pointer;
+}
+.ja h1:hover {
+    color: rgb(26, 26, 150);
+    transition: all .3s linear;
+}
+.ja2 .fa-sun {
+    display: none;
+}
+.ja2 {
+    display: flex;
+    gap: 1rem;
+}
+.fa-moon.white {
+    display: none;
+}
+.fa-sun.show {
+    display: block;
+    /* background-color: var(--background-900); */
+}
+.dark p {
+    color: var();
+}
